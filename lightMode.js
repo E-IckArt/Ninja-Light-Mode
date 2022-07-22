@@ -23,8 +23,6 @@ function selectMode(mode) {
         label2 = '';
     }
 
-    console.log(label);
-
     document.getElementById('icon').src = image;
     document.getElementById('theme').style.background = color;
     document.getElementById('label').innerHTML = label;
