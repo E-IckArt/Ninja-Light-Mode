@@ -8,22 +8,29 @@
         <title>Projet LightMode</title>
     </head>
     <body>
-        <div class="theme" id="theme">
-            <h1 id="label" class="label">~ Ninja's Modes ~</h1>
-            <p id="label2" class="label2">
-                Select your favorite mode for background
-            </p>
-            <img
-                src="img/ninja-index.jpg"
-                id="icon"
-                alt="un ninja habillé en noir"
-            />
+        <div class="container">
+            <div class="theme" id="theme">
+                <div>
+                    <h1 id="label" class="label">~ Ninja's Modes ~</h1>
+                    <p id="label2" class="label2">
+                        Select your favorite background mode
+                    </p>
+                </div>
+                <img
+                    src="img/ninja-index.jpg"
+                    id="icon"
+                    alt="un ninja habillé en noir"
+                />
+            </div>
+            <nav class="options" aria-label="boutons pour changer de mode">
+                <button class="dark" onclick="selectMode('dark');">Dark</button>
+                <button class="light" onclick="selectMode('light');">
+                    Light
+                </button>
+                <button class="grey" onclick="selectMode('grey');">Grey</button>
+            </nav>
         </div>
-        <nav class="options" aria-label="boutons pour changer de mode">
-            <button class="dark" onclick="selectMode('dark');">Dark</button>
-            <button class="light" onclick="selectMode('light');">Light</button>
-            <button class="grey" onclick="selectMode('ninja');">Grey</button>
-        </nav>
+
         <script src="lightMode.js"></script>
     </body>
 </html>
