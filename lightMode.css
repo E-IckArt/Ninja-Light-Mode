@@ -13,6 +13,7 @@ body,
 
 .container {
     margin: 5%;
+    filter: drop-shadow(2px 5px 23px #000);
 }
 
 @media screen and (min-width: 900px) {
@@ -27,7 +28,7 @@ body,
     margin-bottom: 5px;
     text-align: center;
     font-family: 'Grandstander', 'Verdana', cursive, Sans-serif;
-    border: 2px solid #000;
+    border: 2px solid #fff;
 }
 
 .theme {
@@ -75,6 +76,7 @@ img {
     border-radius: 10px;
     width: 40vh;
     height: auto;
+    filter: drop-shadow(2px 5px 10px #000);
 }
 
 /* Buttons style */
